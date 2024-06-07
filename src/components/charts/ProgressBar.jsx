@@ -33,7 +33,7 @@ const ProgressBar = () => {
                                 <div>90</div>
                                 <div>100</div>
                             </div>
-                            <p>Days</p>
+                            <p className="border-b-2 border-red-400 max-w-[40px]">Days</p>
                         </div>
                     </div>
 
@@ -89,7 +89,7 @@ const ProgressBar = () => {
                                 <div>90</div>
                                 <div>100</div>
                             </div>
-                            <p>Days</p>
+                            <p className="border-b-2 border-red-400 max-w-[40px]">Days</p>
                         </div>
                     </div>
 
@@ -117,7 +117,7 @@ const ProgressBar = () => {
                                 <div>90</div>
                                 <div>100</div>
                             </div>
-                            <p>Days</p>
+                            <p className="border-b-2 border-red-400 max-w-[40px]">Days</p>
                         </div>
                     </div>
 

@@ -24,6 +24,7 @@ function App() {
   return (
     <main>
       <h1 className="font-bold text-3xl text-red-400 text-center mt-20">Example of DSB Chart UI</h1>
+      
       <section className='grid grid-cols-2 grid-rows-1 max-w-7xl mx-auto gap-10'>
         
         <div className='mb-10 grid-cols-1'>
