@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Errorbar from "./components/charts/Errorbar"
 import VerticalChart from "./components/charts/Radar"
 import BarGraph from './components/charts/Bar';
+import AccordionSolutions from './components/Accordion';
+import { MdMoreHoriz } from "react-icons/md";
 
 
 
@@ -36,8 +38,8 @@ function App() {
             </>
           }
           <div className='flex justify-center'>
-            <button onClick={handleClick} className="ring-2 rounded-md ring-red-400 px-2 py-1">
-              Switch Graph
+            <button onClick={handleClick} className="ring-2 rounded-md ring-red-400 px-2 py-1 flex items-center hover:scale-110 hover:ring-transparent hover:border-b-2 hover:border-red-400">
+              <MdMoreHoriz size={20} className='mt-2' /> Data
             </button>
           </div>
         </div>
@@ -54,17 +56,18 @@ function App() {
             </>
           }
           <div className='flex justify-center'>
-            <button onClick={handleClicktwo} className="ring-2 rounded-md ring-red-400 px-2 py-1">
-              Switch Graph
-            </button>
+            <button onClick={handleClicktwo} className="ring-2 rounded-md ring-red-400 px-2 py-1 flex items-center hover:scale-110 hover:ring-transparent hover:border-b-2 hover:border-red-400">
+                <MdMoreHoriz size={20} className='mt-2' /> Data
+              </button>
           </div>
         </div>
 
       </section>
         
       <section>
-
+          <AccordionSolutions />
       </section>
+
     </main>
   )
 }

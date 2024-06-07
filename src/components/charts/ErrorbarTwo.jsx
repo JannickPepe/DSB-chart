@@ -1,5 +1,6 @@
 import { CartesianGrid, ErrorBar, Legend, Scatter, ScatterChart, Tooltip, XAxis, YAxis } from "recharts";
-import ProgressBar from "./ProgressBar";
+import { CountUpStats } from "../CountUpStats";
+
 
 const data = [
     {
@@ -76,7 +77,7 @@ const data = [
 
 
 
-const Errorbar = () => {
+const ErrorbarTwo = () => {
 
     return (
         <>
@@ -98,7 +99,7 @@ const Errorbar = () => {
                 </ScatterChart>
             </main>
 
-            <ProgressBar />
+            <CountUpStats />
         </>
     
     );
@@ -106,4 +107,4 @@ const Errorbar = () => {
 };
 
 
-export default Errorbar;
+export default ErrorbarTwo;
